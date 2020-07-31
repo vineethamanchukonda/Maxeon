@@ -1,0 +1,179 @@
+
+html,body{
+	height: 100%;
+	width :100%;
+}
+
+body{
+	background-image: url("images/Banner.png");
+	background-size: cover;
+	background-position:center center;
+	background-attachment: fixed;
+  	padding:0;
+  	color:white;
+}
+
+button{
+   border :none;
+   background: white;
+}
+
+input:focus, textarea,button{
+    outline: none !important;
+}
+
+/* Navbar */
+
+.navbar .navbar-brand:link,
+.navbar .navbar-brand:visited{
+	font-weight: 800;
+	font-size: 1.5rem;
+	letter-spacing: 0.05rem;
+	color:white;
+}
+
+#mainNavbar .nav-link{
+	font-weight: 400;
+	font-size: 0.75rem;
+	color:white;
+}
+
+#mainNavbar .nav-link:hover,
+#mainNavbar .active
+{
+	background: white;
+	border-radius: 3rem;
+	color: black;
+}
+
+/* Message on background image */
+
+.message-container{
+	width: 30%;
+	height: 30%;
+}
+
+#message{
+	font-weight: 900;
+	font-size: 3rem;
+	color:white;
+	letter-spacing: 0.1rem;
+	line-height: 3rem;
+}
+
+/* Chat popup button */
+
+.chat-icon{
+	background-color: white;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 1.5rem 1.5rem 0;
+	border: 1px solid transparent;
+	position: fixed;
+	top: 88%;
+}
+
+/* Chat popup body */
+
+.chat-mssg{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.chat-mssg-start{
+	background-color: white;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	height: 190px;
+	width: 240px;
+	top :55%;
+	position: fixed;
+}
+
+.chat-1{
+	background-color: #7F8AC5;
+	border-radius: 0.25rem
+}
+
+.chat-2-1{
+	color: #0C003A;
+	font-size: 0.6rem;
+	font-weight: 600; 
+}
+
+.chat-2-2{
+	color: black;
+	font-size: 0.5rem;
+}
+
+.chat-2-3{
+	background-color: #13A884;
+	color: white;
+	font-size: 0.6rem;
+	border-radius: 0.8rem;
+	border: 1px solid transparent;
+}
+
+.chat-mssg-end{
+	background: white;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	height: 330px;
+	width: 240px;
+	top: 33%;
+	position: fixed;
+	display: none;
+}
+
+.main{
+	height: 190px;
+	width: 240px;
+	overflow-y: auto;
+	position: relative;
+}
+
+.user1,.user2{
+	display: table;
+	width: 100%;
+	max-width: 70%;
+	font-size: 0.55rem;
+	margin: 3%;
+	padding: 2% 3% 2% 3%;
+	border-radius: 3px;
+}
+
+.user1{
+	float: right;
+	background-color: #4C5AA1;
+}
+
+.user2{
+	float: left;
+	background-color: #ECF1FB;
+	color: black;
+	display: inline-block;
+}
+
+.chat-circle{
+	background-color: #4C5AA1;
+	height: 20px;
+	width: 20px;
+	float: left;
+	border-radius: 10px;
+	margin: 3%;
+}
+
+.chat-logo{
+	height: 15px;
+	width: 100%;
+	color: black;
+	font-size: 0.5rem;
+	text-align: center;
+	color: #0C003A;
+}
+
+.bottom {
+	border-top: 1px solid #e8e8e8;
+	height: 35px;
+	width: 100%;
+	font-size: 10px;
+}
